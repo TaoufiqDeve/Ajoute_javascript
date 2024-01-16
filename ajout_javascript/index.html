@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <ul id="ule"> 
+        <li>Elément N° 1 <a>Supprimer</a></li> 
+    </ul> 
+    <button type="button" onclick="ajouter()">Ajouter</button> 
+
+    <form id="from">
+
+        <div>
+            <label for="">Nam:</label>
+            <input type="text" id="nom">
+            <span>Champ obligatoir</span>
+        </div>
+        <div>
+            <label for="">prenom:</label>
+            <input type="text" id="prenom">
+            <span>Champ obligatoir</span>
+        </div>
+        <div>
+            <label for="">telephon:</label>
+            <input type="tel" class="tel">
+            <span>Champ obligatoir</span>
+        </div>
+        <div>
+            <label for=""></label>
+        </div>
+        <span id="span100"></span>
+
+        
+    </form>
+    <button type="button" onclick="Ajoutertelephon ()">Ajouter numero de telephon</button>
+    <button type="button" onclick="valider()">Envoyer</button>
+
+    <script src="main.js"></script>
+</body>
+</html>

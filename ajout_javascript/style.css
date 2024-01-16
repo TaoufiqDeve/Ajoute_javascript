@@ -1,0 +1,27 @@
+a{
+    cursor: pointer;
+}
+form label{
+    display: inline-block;
+    width: 100px;
+    margin-bottom: 10px;
+}
+form{
+    margin-top: 30px;
+}
+.inputError{
+    border: 1px solid rgb(255, 0, 0);
+}
+.inputSuccess{
+    border: 1px solid rgb(0, 255, 0);
+}
+span{
+    display: none;
+    color: red;
+}
+#span100{
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+    background-color: grey;
+}
